@@ -1,0 +1,66 @@
+/*default version*/
+@font-face {
+	font-family: 'Whitney Medium';
+	src: url('font/font.ttf');
+	src:
+		local('Whitney'),
+		local('Whitney'),
+		url('font/font.ttf')
+		format('opentype');
+}
+
+*{
+	font-family:'Whitney Medium', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#C0C1C3;
+}
+
+body{
+  background-color:#36393E;
+}
+
+textarea{
+  font-weight:400;
+  background-color:#484C52;
+  color:#C0C1C3;
+  font-size:15px;
+  border-radius:5px;
+  padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+  border:none;
+  outline: none;
+  overflow:auto;
+  resize: none;
+}
+
+#input{
+	bottom:0px;
+	height:auto;
+}
+
+#output{
+  bottom:50px;
+	height:30vh;
+}
+
+#demo{
+	height:auto;
+}
+
+.center{
+	position:absolute;
+	margin-bottom:10px;
+	left:10vw;
+	width:80vw;
+	text-align:left;
+	height:50vh;
+}
+
+*::placeholder {
+  color: #7E8185;
+}
+
+*::-webkit-scrollbar {
+   display: none;
+ }
