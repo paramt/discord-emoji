@@ -17,14 +17,25 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 
 ## Features
 
-* conversion of letters and numbers
+* Conversion of letters and numbers
+* Button to instantly copy output
+* Responsive design that works on mobile
+
+## Changelog
+| Version  | Changes |
+| ---: | :--- |
+| 0.1.0  | Basic functionality  |
+| 0.1.1  | Changed selection color to match theme  |
+| 0.2.0  | Copy button introduced  |
+
 
 ## Todo 
 
-* add favicon 
-* add an open graph image
-* add the ability to convert symbols like `$` and `&`
-* include toggle to include/exlclude non-convertable letters into final output
+* Add favicon 
+* Add an open graph image
+* Improve cross-browser compatiability (especially styling for Gecko-based browsers like Firefox/IE/Edge)
+* Add the ability to convert symbols like `$` and `&`
+* Add a toggle to include/exlclude non-convertable letters into final output
 
 ###### This project is not affiliated with Discord Inc. in any way
 
