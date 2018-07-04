@@ -7,7 +7,7 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 
 ``Emojis, done easy.``
 
-#### Output: 
+#### Output:
 
 `:regional_indicator_e: :regional_indicator_m: :regional_indicator_o: :regional_indicator_j: :regional_indicator_i: :regional_indicator_s:    :regional_indicator_d: :regional_indicator_o: :regional_indicator_n: :regional_indicator_e:    :regional_indicator_e: :regional_indicator_a: :regional_indicator_s: :regional_indicator_y:`
 
@@ -17,9 +17,9 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 
 ## Features
 
-* Conversion of letters and numbers
+* Conversion of letters, numbers, and 10+ symbols
 * Button to instantly copy output
-* Responsive design that works on mobile
+* Responsive design that's easy to use on mobile
 
 ## Changelog
 | Version  | Changes |
@@ -27,14 +27,14 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 | 0.1.0  | Basic functionality  |
 | 0.1.1  | Changed selection color to match theme  |
 | 0.2.0  | Copy button introduced  |
+| 0.3.0  | Added support for all Discord-compatible symbols  |
 
 
-## Todo 
+## Todo
 
-* Add favicon 
+* Add favicon
 * Add an open graph image
 * Improve cross-browser compatiability (especially styling for Gecko-based browsers like Firefox/IE/Edge)
-* Add the ability to convert symbols like `$` and `&`
 * Add a toggle to include/exlclude non-convertable letters into final output
 
 ###### This project is not affiliated with Discord Inc. in any way

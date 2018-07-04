@@ -45,6 +45,26 @@ function convert(input){
       output = output + "   ";
     } else if (!isNaN(string[n])){
       output = output + convertNumber(string[n]);
+    } else if (string[n] == "#"){
+      output = output + ":hash:";
+    } else if (string[n] == "*"){
+      output = output + ":asterisk:";
+    } else if (string[n] == ">"){
+      output = output + ":arrow_forward:";
+    } else if (string[n] == "<"){
+      output = output + ":arrow_backward:";
+    } else if (string[n] == "!"){
+      output = output + ":exclamation:";
+    } else if (string[n] == "+"){
+      output = output + ":heavy_plus_sign:";
+    } else if (string[n] == "-" || string[n] == "−"){
+      output = output + ":heavy_minus_sign:";
+    } else if (string[n] == "$"){
+      output = output + ":heavy_dollar_sign:";
+    } else if (string[n] == "÷"){
+      output = output + ":heavy_division_sign:";
+    } else if (string[n] == "×"){
+      output = output + ":heavy_multiplication_x: ";
     } else if (includeNonConvertableLetters){
       output = output + string[n];
     }
