@@ -69,4 +69,13 @@ textarea{
     .center {
 			left:10vw;
 			width:80vw;
+		}
+}
+
+*::selection{
+  background: #bababa; /* WebKit/Blink Browsers */
+}
+
+*::-moz-selection{
+  background: #bababa; /* Gecko Browsers */
 }
