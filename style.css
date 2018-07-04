@@ -14,6 +14,14 @@
 	color:#C0C1C3;
 }
 
+*::placeholder {
+  color: #7E8185;
+}
+
+*::-webkit-scrollbar {
+   display: none;
+ }
+
 body{
   background-color:#36393E;
 }
@@ -51,16 +59,14 @@ textarea{
 .center{
 	position:absolute;
 	margin-bottom:10px;
-	left:10vw;
-	width:80vw;
+	left:20vw;
+	width:60vw;
 	text-align:left;
 	height:50vh;
 }
 
-*::placeholder {
-  color: #7E8185;
+@media only screen and (max-width: 800px) {
+    .center {
+			left:10vw;
+			width:80vw;
 }
-
-*::-webkit-scrollbar {
-   display: none;
- }
