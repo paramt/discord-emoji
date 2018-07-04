@@ -44,7 +44,7 @@ textarea{
 
 #input{
 	bottom:0px;
-	height:auto;
+	height:100%;
 }
 
 #output{
@@ -65,10 +65,44 @@ textarea{
 	height:50vh;
 }
 
+.input-bar{
+	width:60vw;
+	position:absolute;
+	bottom:0px;
+	left:20vw;
+	margin-bottom:10px;
+	padding-right:10px;
+}
+
+.input-text{
+	width:90%;
+	height:100%;
+}
+
+.input-btn{
+	width:9%;
+	position:absolute;
+	height:90%;
+	right:0px;
+}
+
 @media only screen and (max-width: 800px) {
     .center {
 			left:10vw;
 			width:80vw;
+		}
+
+		.input-bar{
+			width:80vw;
+			left:10vw;
+		}
+
+		.input-text{
+			width:80%
+		}
+
+		.input-btn{
+			width:18%;
 		}
 }
 
@@ -78,4 +112,18 @@ textarea{
 
 *::-moz-selection{
   background: #bababa; /* Gecko Browsers */
+}
+
+.copy{
+	background-color:#484C52;
+ 	border:none;
+ 	outline: none;
+
+ 	border-radius:5px;
+ 	color:#C0C1C3;
+}
+
+.copy:hover{
+	background-color:#7E8185;
+	cursor:pointer;
 }

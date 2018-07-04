@@ -16,8 +16,12 @@
   </head>
 
   <body>
-    <textarea class="center" rows="1" id="input" oninput="capitalize()" placeholder="Message @text-to-emoji-converter"></textarea>
     <textarea class="center" placeholder="Type in the textbox below to convert your message to discord emojis." id="output" oninput="capitalize()"></textarea>
+
+    <div class="input-bar">
+      <textarea class="input-text" rows="1" id="input" oninput="capitalize()" placeholder="Message @emoji-converter"></textarea>
+      <button onclick="copy()" class="copy input-btn">COPY</button>
+    </div>
 
     <div class="center" style="overflow:scroll;z-index:-1;">
       <h1>Convert Text To Discord Emojis</h1>

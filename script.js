@@ -63,3 +63,9 @@ window.onload = function(){
     document.getElementById("demo").style.width = w*0.8 + "px";
   }
 }
+
+function copy(){
+  var copyText = document.getElementById("output");
+  copyText.select();
+  document.execCommand("copy");
+}
