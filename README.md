@@ -33,9 +33,8 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 
 ## Todo
 
-* Add favicon
-* Add an open graph image
 * Improve cross-browser compatiability (especially styling for Gecko-based browsers like Firefox/IE/Edge)
+* Add the ability to map custom emojis with characters, which can be especially useful for server-specific custom emoji
 * Add a toggle to include/exlclude non-convertable letters into final output
 
 ###### This project is not affiliated with [Discord Inc.](https://discord.gg) in any way
