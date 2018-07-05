@@ -127,3 +127,7 @@ textarea{
 	background-color:#7E8185;
 	cursor:pointer;
 }
+
+a:hover{
+	color:#7E8185;
+}

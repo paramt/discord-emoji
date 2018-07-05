@@ -28,6 +28,7 @@ Using letter emojis in Discord is much more fun and makes your message stand out
 | 0.1.1  | Changed selection color to match theme  |
 | 0.2.0  | Copy button introduced  |
 | 0.3.0  | Added support for all Discord-compatible symbols  |
+| Release 1.0.0  | Added favicon and open graph image </br> Resolved major bugs </br> Added link to Github repo|
 
 
 ## Todo
