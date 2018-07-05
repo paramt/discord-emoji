@@ -7,29 +7,31 @@ function capitalize(){
 }
 
 function convertNumber(string){
+  var numOutput = '';
+
   if (string == "0"){
-   output = ":zero:";
+   numOutput = ":zero:";
   } else if (string == "1"){
-   output = ":one:";
+   numOutput = ":one:";
   } else if (string == "2"){
-   output = ":two:";
+   numOutput = ":two:";
   } else if (string == "3"){
-   output = ":three:";
+   numOutput = ":three:";
   } else if (string == "4"){
-   output = ":four:";
+   numOutput = ":four:";
   } else if (string == "5"){
-     output = ":five:";
+     numOutput = ":five:";
   } else if (string == "6"){
-     output = ":six:";
+     numOutput = ":six:";
   } else if (string == "7"){
-     output = ":seven:";
+     numOutput = ":seven:";
   } else if (string == "8"){
-     output = ":eight:";
+     numOutput = ":eight:";
   } else if (string == "9"){
-     output = ":nine:";
+     numOutput = ":nine:";
   }
 
-  return output;
+  return numOutput;
 }
 
 function convert(input){
