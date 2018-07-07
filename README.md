@@ -1,5 +1,5 @@
 # Convert Text To Discord Emojis
-Using letter emojis in Discord is much more fun and makes your message stand out, but it can get tricky at times. The times of finding and fiddling through a mess of emojis are over, because now you can use this handy tool! This tool convert your message into emoji markup that Discord understands.
+Using letter emojis in Discord is much more fun and makes your message stand out, but it can get tricky at times. The times of finding and fiddling through a mess of emojis are over, because now you can use this handy tool! This tool converts your message into emoji markup that Discord understands.
 
 ## Example
 
