@@ -77,9 +77,6 @@ function convert(input){
 
 window.onload = function(){
   var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-  var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-
-  var left = w/10 - 10;
 
   if(document.getElementById("demo").width > w*0.8){
     document.getElementById("demo").style.width = w*0.8 + "px";
