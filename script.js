@@ -73,7 +73,7 @@ function convert(input){
   }
 
   return output;
-};
+}
 
 window.onload = function(){
   var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
