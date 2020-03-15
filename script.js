@@ -57,6 +57,8 @@ function convert(input){
       output = output + ":arrow_backward:";
     } else if (string[n] == "!"){
       output = output + ":exclamation:";
+    } else if (string[n] == "?"){
+      output = output + ":question:";
     } else if (string[n] == "+"){
       output = output + ":heavy_plus_sign:";
     } else if (string[n] == "-" || string[n] == "−"){
